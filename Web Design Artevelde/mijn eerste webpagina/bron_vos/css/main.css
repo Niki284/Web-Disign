@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #cbb867; 
+}
+.foxycontent{
+    margin-top: 50px;
+    width: 600px;
+    display: block;
+    justify-content: center;
+    
+    margin-left: 35%;
+    margin-right: 10%;
+}
+
+img{
+    width: 100%;
+    border: 10px solid;
+    border-color: #8c6f4b;
+   
+}
+h1{
+    background-color: #8c6f4b;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+   
+}
+p{
+    background-color: #dbc8b1;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+@media(min-width :600px){
+    
+}

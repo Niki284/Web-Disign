@@ -1,0 +1,46 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: auto;
+	background-color: #6fc9e1;
+
+}
+.fros{
+	text-align: center;
+	text-shadow
+	background-color: #eef3ef;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 40px;
+	color: #fff;
+	border-radius: 10px;
+
+}
+.frozen{
+	margin-left: 33%;
+	background-color: #25be60;
+	width: 40rem;
+	display: block;
+	border: 3px solid red;
+	
+}
+
+p{	
+	margin-top: 30px;
+	background-color: #eef3ef;
+	border-color: red;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	text-shadow: currentColor;
+	font-family: 'Roboto', sans-serif;
+}
+
+#foto{
+	padding-left: 4em;
+	display: flex;
+	justify-content: center;
+}
