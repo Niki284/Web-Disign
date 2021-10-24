@@ -1,0 +1,62 @@
+article {
+    background-color: var(--color);
+    margin: 0 100px;
+    padding-bottom: 30px;
+}
+
+/* .team-person {
+
+} */
+
+.team-person p {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.team-person img {
+    height: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 4px #fff;
+}
+
+.team-peaple {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 600px;
+    gap: 20px;   
+}
+
+.team-person:nth-child(2) {
+    align-self: flex-start;
+}
+
+.team-title {
+    font-family: "Rubik title";
+    font-size: 1.7rem;
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+}
+
+.info {
+    background-color: var(--color);
+    margin: 20px 100px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0px 4px 3px 3px;
+    font-family: Roboto, sans-serif;
+}
+
+.thanks h3{
+
+    text-align: center;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    margin-top: 20px
+}

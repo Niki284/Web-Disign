@@ -1,0 +1,170 @@
+.contact{
+    text-align: center;
+    padding: 20px 100px;
+    font-family: Roboto, sans-serif;
+    background-color: var(--color);
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact h2 {
+    font-family: "Rubik title", sans-serif;
+    font-size: 2rem;
+}
+
+.contact p {
+    margin-top: 2%;
+    font-size: 1.2rem;
+}
+
+.contact strong {
+    color: #fff;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 100px;
+    
+    
+}
+
+.contact a {
+    color: rgb(54, 23, 23);
+    font-size: 1.6rem;
+    border: 0.5rem solid rgb(54, 23, 23);;
+    border-radius: 1rem;
+    box-shadow:rgb(194, 25, 25) ; 
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    background-color: #fff;
+    color: rgb(54, 23, 23);
+    font-size: 1.6rem;
+    color: rgb(194, 25, 25);
+    box-shadow: 2px 2px 2px 2px rgb(252, 249, 249);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: var(--color);
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+form h2 {
+    color: #fff;
+    font-family: "Rubik title", sans-serif;
+    font-size: 2rem;
+}
+
+form label {
+    font-size: 1.5rem;
+}
+
+form input {
+    font-size: 1.15rem;
+    padding: 0.5rem;
+    /* margin: 1rem; */
+    box-shadow: 4px 4px 4px 4px rgb(56, 55, 55);
+    /* border: 0.2rem solid rgb(92, 81, 68); */
+    border-radius: 10px;
+    border: none;
+}
+
+.placeholder {
+
+}
+
+form input:hover {
+    box-shadow: 4px 4px 4px 4px rgb(54, 23, 23);
+}
+
+form button{
+    /* width: 5rem;
+    height: 3rem; */
+    font-size: 1rem;
+    border: none;
+    background-color: #9b1d1d46;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 0 #ffffff2c;
+    transition: 0.4s;
+}
+
+form button:hover{
+    box-shadow: 0px 0px 0 0 #ffffff2c;
+}
+
+
+
+.plaats_map {
+    margin-top: 20px;
+}
+
+.plaats_map iframe{
+    width: 100%;
+    border: none;
+    aspect-ratio: 2/1;
+}
+
+@media (max-width: 800px) {
+    .contact{
+        text-align: center;
+        padding: 20px 40px;
+        font-family: Roboto, sans-serif;
+        background-color: var(--color);
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    
+    .contact h2 {
+        font-family: "Rubik title", sans-serif;
+        font-size: 2rem;
+    }
+    
+    .contact p {
+        margin-top: 2%;
+        font-size: 1.2rem;
+    }
+    
+    .contact strong {
+        color: #fff;
+        margin-top: 2%;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0 100px;
+        
+        
+    }
+    
+    .contact a {
+        color: rgb(54, 23, 23);
+        font-size: 1.6rem;
+        border: 0.5rem solid rgb(54, 23, 23);;
+        border-radius: 1rem;
+        box-shadow:rgb(194, 25, 25) ; 
+        transition: 0.3s;
+    }
+    
+    .contact a:hover {
+        background-color: #fff;
+        color: rgb(54, 23, 23);
+        font-size: 1.6rem;
+        color: rgb(194, 25, 25);
+        box-shadow: 2px 2px 2px 2px rgb(252, 249, 249);
+    }
+    form input {
+        width: 100%
+    }
+}

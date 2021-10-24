@@ -1,0 +1,247 @@
+@font-face {
+	font-family: 'Rubik title'; 
+	src: url(/fonts/RubikMonoOne-Regular.woff2); 
+}
+
+@font-face {
+	font-family: 'Roboto'; 
+	src: url(/fonts/Roboto-Regular.woff); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color: rgb(206, 111, 73);
+}
+body {
+    background-color: rgb(236, 168, 128);
+}
+
+main {
+    margin: 100px 100px 0 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    top: 20px;
+    padding: 10px;
+    position: fixed;
+    font-family: Roboto;
+    background-color: var(--color);
+}
+
+.nav-link {
+    margin: auto 10px ;
+    list-style-type: none;   
+}
+
+.nav-link a {
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: -2px;
+    left: 0;
+    
+    background-color: rgb(194, 25, 25);
+    transition: 0.2s;
+}
+
+.nav-link:not(.nav-logo):hover a::before {
+    width: 100%;
+}
+
+.nav-logo a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Rubik title";
+    
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: var(--color);
+    padding: 15px;
+    margin: 20px 0;
+    margin-top: 20px
+}
+
+.welcome img {
+    width: 50%;
+    min-width: 200px;
+}
+
+.welcome-text {
+    width: 49%;
+    min-width: 500px;
+    color: #fff;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 3px 3px;
+    font-family: Roboto, sans-serif;
+}
+
+.welcome h1 {
+    font-family: "Rubik title";
+    font-size: 3rem;
+    padding-left: 15px;
+}
+
+.welcome p {
+    color: rgb(247, 247, 247);
+    font-size: 18px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+
+.media {
+    background-color: var(--color);
+    padding: 15px;
+    margin-top: 30px
+}
+
+.media h2 {
+    font-family: "Rubik title", sans-serif;
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.media-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    gap: 2rem
+}
+
+.media-item {
+    background-color: rgb(197, 89, 47);
+    padding: 1rem;
+    border-radius: 01rem;
+    box-shadow: 0px 6px 6px 6px rgb(247, 237, 237);
+}
+.media-item:hover {
+    background-color: rgb(197, 89, 47);
+    padding: 1rem;
+    border-radius: 01rem;
+    box-shadow: 0px 6px 6px 6px rgb(240, 49, 49);
+}
+
+.media-item img {
+    width: 200px;
+}
+
+.media-item h3{
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(56, 55, 55);
+    margin-top: 20px;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer address {
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(54, 23, 23);
+    transition: .2s;
+    font-size: 1.4rem;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: rgb(194, 25, 25);
+    box-shadow: 2px 2px 2px 2px tomato;
+}
+
+footer p {
+    text-decoration: none;
+    color: #fff;
+    transition: .2s;
+    font-size: 1.3rem;
+}
+@media (max-width: 800px ){
+    main {
+        margin: 20px;
+        margin-top: 100px;
+    }
+
+    .welcome-text {
+        min-width: 100%;
+        box-shadow: none;
+    }
+
+    .welcome-text h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+/* footer {
+   
+    background-color: gold;
+}
+footer p {
+ display: block;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.wpb_map_wraper{
+    width: 40rem;
+    height:450px;
+    
+   border: 0px;
+    pointer-events: none;
+}
+
+.vidio  {
+    width: 30rem;
+    height: 30rem;
+} */
