@@ -1,0 +1,14 @@
+h1 ,h2 {
+    font-size: 1.7rem;
+}
+
+span {
+    font-size: 1.7rem;
+    color: rgb(223, 54, 138);
+}
+
+.team-people img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+}

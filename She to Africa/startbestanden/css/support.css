@@ -1,0 +1,55 @@
+main {
+    display: block;
+    text-align: center;
+
+}
+
+
+.sup {
+
+}
+
+.title {
+
+}
+
+h1 span {
+    font-size: 1.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(223, 54, 138);
+}
+
+.logo1 {
+    color: rgb(59, 202, 54);
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+hr {
+    padding-top: 1rem;
+    background-color: deeppink ;
+    height: 1rem;
+    
+}
+
+
+
+p {
+    font-size: large;
+
+}
+
+article {
+    background-color: rgb(165, 144, 144);
+}
+strong {
+    font-size: 3.5rem;
+    
+    color: gray;
+}
+article p {
+    color: rgb(223, 54, 138);
+}
+
+.videos video {
+    width: 650px;
+    height: 450px;
+}

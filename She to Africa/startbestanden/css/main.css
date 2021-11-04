@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+   padding: 0.1rem;
+   margin: 0.1rem;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    margin-top: 50px;
+    padding: 10px;
+    /* position: fixed; */
+    font-family: Roboto;
+    background-color: var(--color);
+}
+
+.nav-link {
+    margin: auto 10px ;
+    list-style-type: none;   
+}
+
+.nav-link a {
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(223, 54, 138);
+    font-weight: bold;
+}
+
+.nav-link a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: -2px;
+    left: 0;
+    
+    background-color: rgb(194, 25, 25);
+    transition: 0.2s;
+}
+
+.nav-link:not(.nav-logo):hover a::before {
+    width: 100%;
+}
+
+.nav-logo a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Rubik title";
+    
+}
+
+.nav-logo1 img {
+    height: 15%;
+    width: 20%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    background-color: rgb(32, 31, 31);
+}
+.End-Foto img svg{
+    color: blanchedalmond;
+    padding: 10%;
+    height: 80%;
+
+}
+.End-Foto p{
+    color: blanchedalmond;
+    padding: 10%;
+    height: 10%;
+    animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
